@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang= "en">
+
+<!-- Dave Defourneaux           -->
+<!-- dave.defourneaux@gmail.com -->
+<!-- github.com/dd4no           -->	
+
+	<head>
+		<meta charset= "utf-8">
+		<title>St. Pete Guitar Exchange</title>
+		<link rel="stylesheet" href="./css/one_page_website.css">
+		<meta name="viewport" content="width=device-width">
+		
+	</head>
+	
+	<body>
+		<!-- NAV BAR -->
+		<div>
+			<nav>
+				<a href="#home">HOME |</a> 
+				<a href="#photos">PHOTOS |</a> 
+				<!--<a href="#videos">VIDEOS</a> -->
+				<a href="#contact">CONTACT</a>
+			</nav>
+		</div>
+		<!-- END NAV BAR -->
+		
+		<!-- HOME PAGE -->
+		<div id="home">
+			<div>
+				<h1 class="title">ST. PETE <span>GUITAR</span> EXCHANGE</h1>
+				<h2>Buy - Sell - Trade - Learn</h2>
+			</div>
+			<div>
+				<p>
+					A music club helping to facilitate the exchange of
+					guitars,<br>stringed instruments, and all other things musical,<br>
+					from instruments, equipment, and accessories to lessons, knowledge, and resources.<br>
+					Also serving as a hub of live music event listings in the vibrant, and world-class<br>
+					<span>Tampa Bay live music scene</span>.
+				</p>
+			</div>
+		</div>
+		<!-- END HOME PAGE -->
+		
+		<!-- PHOTOS -->
+		<section  id="photos">
+
+			<div>
+			<h1>WHO IS YOUR GUITAR HERO?</h1>
+			<p></p>
+			<h3>SOME OF OUR INFLUENCES &nbsp;&nbsp;(JUST TO NAME A FEW)</h3>
+				
+				<div>
+					<table>
+						<tr>
+							<td><img src="./images/jerry-garcia.jpg" alt="Jerry Garcia" onclick="openModal();currentSlide(1)"></td>
+							<td><img src="./images/eric-clapton.jpg" alt="Eric Clapton" onclick="openModal();currentSlide(2)"></td>
+							<td><img src="./images/duane-allman.jpg" alt="Duane Allman" onclick="openModal();currentSlide(3)"></td>							
+						</tr>
+						<tr>
+							<td><img src="./images/frank-zappa.jpg" alt="Frank Zappa" onclick="openModal();currentSlide(4)"></td>
+							<td><img src="./images/jimi-hendrix.jpg" alt="Jimi Hendrix" onclick="openModal();currentSlide(5)"></td>
+							<td><img src="./images/jimmy-page.jpg" alt="Jimmy Page" onclick="openModal();currentSlide(6)"></td>							
+						</tr>
+						<tr>
+							<td><img src="./images/pete-townshend.jpg" alt="Pete Townshend" onclick="openModal();currentSlide(7)"></td>
+							<td><img src="./images/david-gilmour.jpg" alt="David Gilmour" onclick="openModal();currentSlide(8)"></td>
+							<td><img src="./images/alex-lifeson.jpg" alt="Alex Lifeson" onclick="openModal();currentSlide(9)"></td>							
+						</tr>						
+					</table>
+				</div>
+			</div>
+			
+			<div id="modal">
+				<span class="closer" onclick="closeModal()">&times;</span>
+				<div class="lightbox">
+					<div class="slide">
+						<img src="images/jerry-garcia.jpg" alt="Jerry Garcia">
+					</div>
+					<div class="slide">
+						<img src="images/eric-clapton.jpg" alt="Eric Clapton">
+					</div>
+					<div class="slide">
+						<img src="images/duane-allman.jpg" alt="Duane Allman">
+					</div>
+					<div class="slide">
+						<img src="images/frank-zappa.jpg" alt="Frank Zappa">
+					</div>
+					<div class="slide">
+						<img src="images/jimi-hendrix.jpg" alt="Jimi Hendrix">
+					</div>
+					<div class="slide">
+						<img src="images/jimmy-page.jpg" alt="Jimmy Page">
+					</div>
+					<div class="slide">
+						<img src="images/pete-townshend.jpg" alt="Pete Townshend">
+					</div>
+					<div class="slide">
+						<img src="images/david-gilmour.jpg" alt="David Gilmour">
+					</div>
+					<div class="slide">
+						<img src="images/alex-lifeson.jpg" alt="Alex Lifeson">
+					</div>
+
+					<a class="back" onclick="changeSlide(-1)">&#10094;</a>
+					<a class="fwd" onclick="changeSlide(1)">&#10095;</a>
+
+					<div class="captionBox">
+						<p id="caption"></p>
+					</div>
+
+					<div class="thumbs">
+						<span class="dot" onclick="currentSlide(1)" title="Jerry Garcia"></span>
+						<span class="dot" onclick="currentSlide(2)" title="Eric Clapton"></span>
+						<span class="dot" onclick="currentSlide(3)" title="Duane Allman"></span>
+						<span class="dot" onclick="currentSlide(4)" title="Frank Zappa"></span>
+						<span class="dot" onclick="currentSlide(5)" title="Jimi Hendrix"></span>
+						<span class="dot" onclick="currentSlide(6)" title="Jimmy Page"></span>
+						<span class="dot" onclick="currentSlide(7)" title="Pete Townshend"></span>
+						<span class="dot" onclick="currentSlide(8)" title="David Gilmour"></span>
+						<span class="dot" onclick="currentSlide(9)" title="Alex Lifeson"></span>
+					</div>
+
+				</div>
+
+			</div>
+			
+		</section>
+		<!-- END PHOTOS -->
+		
+		<!-- VIDEOS -->
+		<!--<section  id="videos">
+			<div>
+			<h1>GETTING STARTED VIDEOS</h1>
+				<div>
+					<table>
+						<tr>
+							<td><iframe width="450" height="315" src="https://www.youtube.com/embed/mVHxOB4zWt8"></iframe></td>
+							<td><iframe width="450" height="315" src="https://www.youtube.com/embed/tdwpkKZAXc8"></iframe></td>
+						</tr>
+						<tr>
+							<td><iframe width="450" height="315" src="https://www.youtube.com/embed/kvGYl8SQBJ0"></iframe></td>
+							<td><iframe width="450" height="315" src="https://www.youtube.com/embed/_G74aXiVUKI"></iframe></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</section>-->
+		<!-- END VIDEOS -->
+		
+		<!-- CONTACT -->
+		<section  id="contact">
+			<div>
+				<div id="signup">
+					<h1>GET IN TOUCH WITH US</h1>
+					<form>
+						<input type="text" name="fname" placeholder="First Name">
+						<input type="text" name="lname" placeholder="Last Name">
+						<input type="text" name="email" placeholder="Email">
+						<!--<fieldset>
+						<input type="radio" name="level" id="beginner">Beginner
+						<input type="radio" name="level" id="intermediate">Intermediate
+						<input type="radio" name="level" id="advanced">Advanced
+						</fieldset>-->
+						<input type="text" name="hero" placeholder="Who is your guitar hero?">
+						<textarea name="comments" placeholder="Comments" rows="10"></textarea>
+						<input type="submit" value="Send">
+					</form>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACT -->
+		
+		<!-- FOOTER -->
+		<footer>
+			<div>
+				<a href="#home">HOME</a>
+				<p>2021 -- St Pete Music Exchange</p>
+			</div>
+		</footer>
+		<!-- END FOOTER -->
+		
+		<script src="JS/one_page_website.js"></script>
+	</body>
+</html>
